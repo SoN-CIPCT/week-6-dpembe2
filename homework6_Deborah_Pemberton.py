@@ -5,6 +5,7 @@ for new_users in new_users:
         print(f"This user name '{new_users}' is already in use. Please choose a different username.")
     else:
         print(f"The username '{new_users}' is available.")
+cities = { 'Seattlle', 'London', 'Rome' }
 cities = {
     'Seattle': {
         'country': 'United States',
