@@ -22,5 +22,9 @@ cities = {
         'fact': 'Rome was the first city in the world to reach a population of 1 million people.'
     }
 }        
-
+for city, city_info in cities.items():
+    print(f"\nCity: {city}")
+    print(f"\tCountry: {city_info['country']}")
+    print(f"\tPopulation: {city_info['population']}")
+    print(f"\tFact: {city_info['fact']}")
 
